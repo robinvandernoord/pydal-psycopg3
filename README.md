@@ -10,15 +10,16 @@ driver schemes.
 - **Drop-In Replacement**: The module is designed to work with existing `psycopg2` configurations.
 - **Custom Scheme Support**: Supports both the original "postgres" scheme and a custom "postgres:psycopg3" scheme for
   explicit usage.
-- **Compatibility with pyDAL**: Built as a registerable driver, compatible with the pyDAL DAL object.
+- **Compatibility with pyDAL**: Built as a registerable driver, compatible with the DAL object.
 
 ## Installation
 
 To use this driver, install the package and its dependencies:
 
 ```bash
-pip install pydal
-pip install psycopg[binary]
+(uv) pip install pydal-psycopg3
+# or to include the prebuilt driver:
+(uv) pip install pydal-psycopg3 psycopg-binary
 ```
 
 ## Getting Started
