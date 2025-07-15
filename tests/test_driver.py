@@ -66,6 +66,7 @@ def test_db_original_scheme(at_temp_dir):
     select * from test_table_one
     """)
 
+
 def test_db_custom_scheme(at_temp_dir):
     from src import pydal_psycopg3
 
