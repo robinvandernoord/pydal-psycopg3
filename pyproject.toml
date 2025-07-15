@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pydal-psycopg3"
-dynamic = "version"
+dynamic = ["version"]
 
 description = "Experimental psycopg3 driver for pydal"
 readme = "README.md"
