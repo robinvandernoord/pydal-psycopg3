@@ -14,7 +14,7 @@ authors = [
 requires-python = ">=3.10"
 
 dependencies = [
-    "psycopg>3",
+    "psycopg >3, <4",
     "pydal>=20250629.2",
 ]
 
