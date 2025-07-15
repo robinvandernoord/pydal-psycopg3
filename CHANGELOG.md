@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.1 (2025-07-15)
+
+### Fix
+
+* Don't allow psycopg above v3 ([`838bc33`](https://github.com/robinvandernoord/pydal-psycopg3/commit/838bc33fc7175e30f689ec2a9165618ba96785cd))
+
 ## v0.1.0 (2025-07-15)
 
 ### Feature
